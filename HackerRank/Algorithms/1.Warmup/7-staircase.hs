@@ -1,4 +1,4 @@
--- Hankrank challenge - algorithm - 1-7: staircase
+-- HackerRank challenge - Algorithms - 1-7: staircase
 
 import Data.List
 

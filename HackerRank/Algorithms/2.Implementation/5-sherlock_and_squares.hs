@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-5: sherlock and squares
+-- HackerRank challenge - Algorithms - 2-5: sherlock and squares
 
 import Data.List
 

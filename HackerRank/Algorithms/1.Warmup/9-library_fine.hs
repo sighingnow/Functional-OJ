@@ -1,4 +1,4 @@
--- Hackrank challenge - algorithm - 1-9: library fine
+-- HackerRank challenge - Algorithms - 1-9: library fine
 
 main :: IO ()
 main = getContents >>= print . solve . map read . words

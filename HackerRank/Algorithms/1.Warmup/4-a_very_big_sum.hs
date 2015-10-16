@@ -1,4 +1,4 @@
--- Hankrank challenge - algorithm - 1-4: a very big sum
+-- HackerRank challenge - Algorithms - 1-4: a very big sum
 
 import Control.Monad
 

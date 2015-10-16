@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-7: cut the sticks
+-- HackerRank challenge - Algorithms - 2-7: cut the sticks
 
 import Data.List
 

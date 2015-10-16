@@ -1,4 +1,4 @@
--- Hackrank challenge - algorithm - 1-8: time conversion
+-- HackerRank challenge - Algorithms - 1-8: time conversion
 
 import Data.List
 import Text.Printf

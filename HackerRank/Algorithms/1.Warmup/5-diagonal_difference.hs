@@ -1,4 +1,4 @@
--- Hankrank challenge - algorithm - 1-5: diagonal difference
+-- HackerRank challenge - Algorithms - 1-5: diagonal difference
 
 import Control.Monad
 

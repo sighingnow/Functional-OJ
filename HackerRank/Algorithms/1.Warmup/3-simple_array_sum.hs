@@ -1,4 +1,4 @@
--- Hankrank challenge - algorithm - 1-3: simple array sum
+-- HackerRank challenge - Algorithms - 1-3: simple array sum
 
 import Control.Monad
 

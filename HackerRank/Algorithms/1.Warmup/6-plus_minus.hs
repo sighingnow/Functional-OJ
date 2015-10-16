@@ -1,4 +1,4 @@
--- Hackrank challenge - algorithm - 1-6: plus minus
+-- HackerRank challenge - Algorithms - 1-6: plus minus
 
 import Text.Printf
 

@@ -1,4 +1,4 @@
--- Hackrank challenge - algorithm - 1-10: extra long factorials
+-- HackerRank challenge - Algorithms - 1-10: extra long factorials
 
 import Data.List (foldl')
 

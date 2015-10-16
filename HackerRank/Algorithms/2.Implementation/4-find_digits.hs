@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-4: find digits
+-- HackerRank challenge - Algorithms - 2-4: find digits
 
 import Data.List
 

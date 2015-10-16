@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-10: cavity map
+-- HackerRank challenge - Algorithms - 2-10: cavity map
 
 import Data.Char
 import Data.List

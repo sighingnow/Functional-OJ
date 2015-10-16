@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-8: chocolate feast
+-- HackerRank challenge - Algorithms - 2-8: chocolate feast
 
 import Data.List
 

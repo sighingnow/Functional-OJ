@@ -1,4 +1,4 @@
--- Hankrank challenge - algorithm - 1-1: solve-me-first
+-- HackerRank challenge - Algorithms - 1-1: solve-me-first
 
 main :: IO ()
 main = do

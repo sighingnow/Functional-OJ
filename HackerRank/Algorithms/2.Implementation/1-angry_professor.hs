@@ -1,4 +1,4 @@
--- Hackrank challenge - algorithm - 2-1: angry professor
+-- HackerRank challenge - Algorithms - 2-1: angry professor
 
 import Control.Monad
 import Data.List (intercalate)

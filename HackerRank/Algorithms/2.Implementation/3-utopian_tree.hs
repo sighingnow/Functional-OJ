@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-3: utopian tree
+-- HackerRank challenge - Algorithms - 2-3: utopian tree
 
 import Data.List (intercalate)
 import Debug.Trace

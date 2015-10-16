@@ -1,4 +1,4 @@
--- hackrank challenge - algorithm - 2-9: caesar cipher 1
+-- HackerRank challenge - Algorithms - 2-9: caesar cipher 1
 
 import Data.Char
 import Data.List

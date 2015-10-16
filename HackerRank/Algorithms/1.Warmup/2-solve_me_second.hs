@@ -1,4 +1,4 @@
--- Hankrank challenge - algorithm - 1-2: solve-me-second
+-- HackerRank challenge - Algorithms - 1-2: solve-me-second
 
 import Control.Monad
 

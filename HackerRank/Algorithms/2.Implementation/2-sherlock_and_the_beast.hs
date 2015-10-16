@@ -1,4 +1,4 @@
--- Hackrank challenge - algorithm - 2-2: sherlock and the beast
+-- HackerRank challenge - Algorithms - 2-2: sherlock and the beast
 
 import Data.List (intercalate)
 
