@@ -1,9 +1,9 @@
 -- Codeforces 570A
 
-import Control.Applicative
-import Control.Monad
-import Data.List
-import Data.Maybe
+import           Control.Applicative
+import           Control.Monad
+import           Data.List
+import           Data.Maybe
 
 main :: IO ()
 main = do

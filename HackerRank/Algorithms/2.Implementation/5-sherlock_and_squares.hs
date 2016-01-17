@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 2-5: sherlock and squares
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >> getContents >>= putStrLn . intercalate "\n" . map show . solve . map (map read . words) . lines

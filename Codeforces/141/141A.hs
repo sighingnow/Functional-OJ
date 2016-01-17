@@ -1,7 +1,7 @@
 -- Codeforces 141A
 
-import Control.Monad
-import Data.List
+import           Control.Monad
+import           Data.List
 
 main :: IO ()
 main = do

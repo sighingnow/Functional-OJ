@@ -1,7 +1,7 @@
 -- Codeforces 166E
 
-import Data.List
-import Debug.Trace
+import           Data.List
+import           Debug.Trace
 
 -- Algorithm: matrix exponentiating by squaring
 
@@ -26,9 +26,9 @@ keymat = [[0, 1, 1, 1], [1, 0, 1, 1], [1, 1, 0, 1], [1, 1, 1, 0]]
 
 -- quickpowmod mat n m (i, j): calculate mat^n [i,j] % m
 quickpowmod :: [[Integer]] -> Integer -> Integer -> (Int, Int) -> Integer
-quickpowmod mat n m (i, j) = (loop n idmat mat m) !! i !! j where 
+quickpowmod mat n m (i, j) = (loop n idmat mat m) !! i !! j where
     loop 0 ans _ _ = ans
-    loop n ans inter m = loop (n `div` 2) (if n `mod` 2 == 1 then multi ans inter m else ans) (multi inter inter m) m 
+    loop n ans inter m = loop (n `div` 2) (if n `mod` 2 == 1 then multi ans inter m else ans) (multi inter inter m) m
 
 multi :: [[Integer]] -> [[Integer]] -> Integer -> [[Integer]]
 multi a b m = [[(foldl1' (+) $ zipWith (*) x y) `mod` m | y <- transpose b] | x <- a]

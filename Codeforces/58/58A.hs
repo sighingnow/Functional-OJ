@@ -1,6 +1,6 @@
 -- Codeforces 58A
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >>= putStrLn . solve

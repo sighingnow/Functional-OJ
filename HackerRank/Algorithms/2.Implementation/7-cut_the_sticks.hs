@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 2-7: cut the sticks
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = do

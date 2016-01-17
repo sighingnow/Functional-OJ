@@ -1,7 +1,7 @@
 -- HackerRank challenge - Algorithms - 2-9: caesar cipher 1
 
-import Data.Char
-import Data.List
+import           Data.Char
+import           Data.List
 
 main :: IO ()
 main = do

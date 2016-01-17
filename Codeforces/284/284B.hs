@@ -12,5 +12,5 @@ solve xs = case cnt_I
         1 -> 1;
         otherwise -> 0;
     }where
-        cnt_I = length $ filter (== 'I') xs 
+        cnt_I = length $ filter (== 'I') xs
         cnt_A = length $ filter (== 'A') xs

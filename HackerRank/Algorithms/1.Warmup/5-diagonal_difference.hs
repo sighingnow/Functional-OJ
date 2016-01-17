@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 1-5: diagonal difference
 
-import Control.Monad
+import           Control.Monad
 
 main :: IO ()
 main = do

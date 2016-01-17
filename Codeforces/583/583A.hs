@@ -1,8 +1,8 @@
 -- Codeforces 583A
 
-import Control.Monad
-import qualified Data.Set as Set
-import Data.List (intercalate)
+import           Control.Monad
+import           Data.List     (intercalate)
+import qualified Data.Set      as Set
 
 main :: IO ()
 main = getLine >> getContents >>= putStrLn . intercalate " " . map show . solve 1 (Set.empty, Set.empty) . map read . words

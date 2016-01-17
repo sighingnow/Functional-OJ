@@ -1,11 +1,11 @@
 -- Codeforces 578B
 
-import Data.Bits ((.|.))
-import Data.Foldable (foldl', foldr')
-import Data.Maybe (fromJust)
+import           Data.Bits             ((.|.))
 import qualified Data.ByteString.Char8 as BC
+import           Data.Foldable         (foldl', foldr')
+import           Data.Maybe            (fromJust)
 
--- Hint multiply x^k to a_i to get the hightest bit 1 to make result to be to greatest. 
+-- Hint multiply x^k to a_i to get the hightest bit 1 to make result to be to greatest.
 
 -- Note: use Data.ByteString.Char8.ReadInt to accelerate IO action.
 --       Use scanl1 and scanr1 to record the intermediate list to reduce time and memory space usage.

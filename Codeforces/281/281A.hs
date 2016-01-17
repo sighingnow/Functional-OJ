@@ -1,6 +1,6 @@
 -- Codefoces 281A
 
-import Data.Char
+import           Data.Char
 
 main :: IO ()
 main = do

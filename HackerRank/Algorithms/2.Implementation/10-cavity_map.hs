@@ -1,7 +1,7 @@
 -- HackerRank challenge - Algorithms - 2-10: cavity map
 
-import Data.Char
-import Data.List
+import           Data.Char
+import           Data.List
 
 main :: IO ()
 main = do

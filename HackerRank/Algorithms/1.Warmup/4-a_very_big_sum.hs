@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 1-4: a very big sum
 
-import Control.Monad
+import           Control.Monad
 
 main :: IO ()
 main = do

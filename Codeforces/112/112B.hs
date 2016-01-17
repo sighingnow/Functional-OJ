@@ -1,7 +1,7 @@
 -- Codeforces 112B
 
--- If we want to divide a square into two equal parts, then the cutting line should 
--- pass through the center of our square. 
+-- If we want to divide a square into two equal parts, then the cutting line should
+-- pass through the center of our square.
 
 main :: IO ()
 main = getLine >>= putStrLn . solve . map read . words where

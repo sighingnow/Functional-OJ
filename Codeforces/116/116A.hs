@@ -1,6 +1,6 @@
 -- Codeforces 116A
 
-import Control.Monad
+import           Control.Monad
 
 main :: IO ()
 main = do

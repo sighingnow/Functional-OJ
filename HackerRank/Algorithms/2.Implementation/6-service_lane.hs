@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 2-6: service lane
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = do

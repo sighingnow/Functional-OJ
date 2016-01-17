@@ -7,7 +7,7 @@ main = do
 
 solve :: [Int] -> Int
 solve = fst . foldl (
-    \(m, (e, h)) b -> if (e < b-h) 
-        then (m+(b-h-e), (0, b)) 
-        else (m, (e-(b-h), b))) 
+    \(m, (e, h)) b -> if (e < b-h)
+        then (m+(b-h-e), (0, b))
+        else (m, (e-(b-h), b)))
     (0, (0, 0))

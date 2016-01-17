@@ -1,7 +1,7 @@
 -- Codeforces 246B
 
 import qualified Data.ByteString.Char8 as BC
-import Data.Maybe
+import           Data.Maybe
 
 main :: IO ()
 main = BC.getContents >>= print . solve . map (fst . fromJust . BC.readInt) . BC.words

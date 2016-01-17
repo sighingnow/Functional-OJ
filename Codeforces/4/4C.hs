@@ -1,9 +1,9 @@
 -- Codeforces 4C
 
-import Control.Monad
-import Control.Applicative
-import Data.List
-import qualified Data.Map as Map
+import           Control.Applicative
+import           Control.Monad
+import           Data.List
+import qualified Data.Map            as Map
 
 main :: IO ()
 main = do

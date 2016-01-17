@@ -1,7 +1,7 @@
 -- Codeforces 112A
 
-import Data.Char
-import Control.Applicative
+import           Control.Applicative
+import           Data.Char
 
 main :: IO ()
 main = do

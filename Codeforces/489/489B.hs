@@ -1,6 +1,6 @@
 -- Codeforces 489B
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = do

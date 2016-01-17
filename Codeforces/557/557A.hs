@@ -1,6 +1,6 @@
 -- Codeforces 557A
 
-import Data.List (intercalate)
+import           Data.List (intercalate)
 
 main :: IO ()
 main = getContents >>= putStrLn . intercalate " " . map show . solve . map read . words

@@ -1,6 +1,6 @@
 -- Codeforces 472B
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = do
@@ -10,4 +10,4 @@ main = do
         solve k people
             | length people == 0 = 0
             | length people <= k = 2 * (maximum people - 1)
-            | otherwise = 2 * (head people - 1) + solve k (drop k people) 
+            | otherwise = 2 * (head people - 1) + solve k (drop k people)

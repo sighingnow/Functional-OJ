@@ -1,11 +1,11 @@
 -- Codeforces 579B
 
-import Control.Monad
-import Data.List
-import Data.Function
-import Data.Maybe
-import qualified Data.Set as Set
+import           Control.Monad
 import qualified Data.ByteString.Char8 as BC
+import           Data.Function
+import           Data.List
+import           Data.Maybe
+import qualified Data.Set              as Set
 
 -- Hint: get all combinations of (i, j), then sort it by the value of `d` in decreasing order.
 

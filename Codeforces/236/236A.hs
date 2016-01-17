@@ -1,6 +1,6 @@
 -- Codeforces 236A
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >>= putStrLn . solve . length . group . sort where

@@ -3,7 +3,7 @@
 main :: IO ()
 main = do
     n <- fmap read getLine :: IO Int
-    getLine >>= print . solve 
+    getLine >>= print . solve
 
 solve :: String -> Int
 solve xs = length $ filter (\i -> (xs!!i) /= (ys!!i)) [0..(length xs)-1] where

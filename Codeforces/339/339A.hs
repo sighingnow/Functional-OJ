@@ -1,6 +1,6 @@
 -- Codeforces 339A
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >>= putStrLn . solve . zip [1..]

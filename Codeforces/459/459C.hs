@@ -1,6 +1,6 @@
 -- Codeforces 459C
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >>= putStrLn . solve . map read . words

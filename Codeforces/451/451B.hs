@@ -1,6 +1,6 @@
 -- Codeforces 451B
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getContents >>= putStrLn . solve . map read . words
@@ -16,7 +16,7 @@ solve (n:xs)
         all = zip xs (sort xs)
         len = length $ takeWhile (\x -> (fst x) == (snd x)) all
         k = dropWhile (\x -> (fst x) == (snd x)) $ dropWhileEnd (\x -> (fst x) == (snd x)) all
-    
+
 
 -- judge if a list is sorted in non-decreasing ordering.
 sorted :: [Int] -> Bool

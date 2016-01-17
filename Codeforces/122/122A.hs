@@ -1,6 +1,6 @@
 -- Codeforces 122A
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >>= putStrLn . solve . read where

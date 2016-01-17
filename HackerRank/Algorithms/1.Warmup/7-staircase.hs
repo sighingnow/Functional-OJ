@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 1-7: staircase
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >>= putStrLn . intercalate "\n" . solve . read

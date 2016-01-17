@@ -1,6 +1,6 @@
 -- Codeforces 549A
 
-import Data.List (sort)
+import           Data.List (sort)
 
 main :: IO ()
 main = do

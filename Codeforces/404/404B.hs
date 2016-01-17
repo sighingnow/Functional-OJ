@@ -3,11 +3,11 @@
 
 -- Codeforces 404B
 
-import Foreign
-import Foreign.C.String
-import Foreign.C.Types
-import Data.Fixed (mod') -- important !!
-import Control.Applicative
+import           Control.Applicative
+import           Data.Fixed          (mod')
+import           Foreign
+import           Foreign.C.String
+import           Foreign.C.Types
 
 main :: IO ()
 main = do

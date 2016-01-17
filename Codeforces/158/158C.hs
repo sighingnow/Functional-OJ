@@ -1,8 +1,8 @@
 -- Codeforces 158C.hs
 
-import Control.Applicative
-import Control.Monad
-import Data.List (intercalate)
+import           Control.Applicative
+import           Control.Monad
+import           Data.List           (intercalate)
 
 main :: IO ()
 main = do
@@ -11,7 +11,7 @@ main = do
 
 solve :: Int -> IO ()
 solve n = foldM_ (\d _ -> command d) [] [1..n] where
-    
+
     changepath :: [String] -> [String] -> [String]
     changepath base [] = base
     changepath base ("..":xs) = changepath (init base) xs

@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 2-2: sherlock and the beast
 
-import Data.List (intercalate)
+import           Data.List (intercalate)
 
 main :: IO ()
 main = getLine >> getContents >>= putStrLn . intercalate "\n" . solve . map read . words

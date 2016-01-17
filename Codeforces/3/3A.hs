@@ -1,8 +1,8 @@
 -- Codeforces 3A
 
-import Data.List
-import Data.Char
-import Control.Monad
+import           Control.Monad
+import           Data.Char
+import           Data.List
 
 main :: IO ()
 main = do
@@ -16,7 +16,7 @@ solve (sx, sy) (tx, ty)
     | sx == tx && sy >= ty = replicate (sy-ty) "D"
     | sx >= tx && sy == ty = replicate (sx-tx) "L"
     | sx <= tx && sy == ty = replicate (tx-sx) "R"
-    | sx < tx && sy < ty && (tx-sx) <= (ty-sy) = (replicate (tx-sx) "RU") ++ (replicate ((ty-sy)-(tx-sx)) "U") 
+    | sx < tx && sy < ty && (tx-sx) <= (ty-sy) = (replicate (tx-sx) "RU") ++ (replicate ((ty-sy)-(tx-sx)) "U")
     | sx < tx && sy < ty && (tx-sx) >= (ty-sy) = (replicate (ty-sy) "RU") ++ (replicate ((tx-sx)-(ty-sy)) "R")
     | sx < tx && sy > ty && (tx-sx) >= (sy-ty) = (replicate (sy-ty) "RD") ++ (replicate ((tx-sx)-(sy-ty)) "R")
     | sx < tx && sy > ty && (tx-sx) <= (sy-ty) = (replicate (tx-sx) "RD") ++ (replicate ((sy-ty)-(tx-sx)) "D")

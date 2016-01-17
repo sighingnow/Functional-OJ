@@ -1,7 +1,7 @@
 -- Codeforce 2A
 
-import Data.Maybe
-import qualified Data.Map as Map
+import qualified Data.Map   as Map
+import           Data.Maybe
 
 main :: IO ()
 main = do

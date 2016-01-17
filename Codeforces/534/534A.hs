@@ -1,7 +1,7 @@
 -- Codeforces 534A
 
-import Data.List
-import Data.Maybe
+import           Data.List
+import           Data.Maybe
 
 main :: IO ()
 main = do

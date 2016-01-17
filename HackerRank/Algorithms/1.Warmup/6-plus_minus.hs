@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 1-6: plus minus
 
-import Text.Printf
+import           Text.Printf
 
 main :: IO ()
 main = do

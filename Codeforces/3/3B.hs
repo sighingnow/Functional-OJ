@@ -2,12 +2,12 @@
 
 -- Codeforces 3B
 
-import Data.Maybe
-import Data.List
-import Data.Function
 import qualified Data.ByteString.Char8 as BC
+import           Data.Function
+import           Data.List
+import           Data.Maybe
 
-import Debug.Trace
+import           Debug.Trace
 
 -- simple backpack, greedy algorithm
 

@@ -8,4 +8,4 @@ solve c _ [] [] = c
 solve c acc left [] = solve (c+1) acc [] left
 solve c acc left (x:right)
     | x <= acc = solve c (acc+1) left right
-    | otherwise = solve c acc (x:left) right 
+    | otherwise = solve c acc (x:left) right

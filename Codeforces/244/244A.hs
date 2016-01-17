@@ -1,6 +1,6 @@
 -- Codeforces 244A
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getContents >>= putStrLn . solve . map read . words

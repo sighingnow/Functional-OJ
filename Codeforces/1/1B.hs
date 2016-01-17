@@ -1,7 +1,7 @@
 -- Codeforces 1B
 
-import Data.List
-import Data.Char
+import           Data.Char
+import           Data.List
 
 main :: IO ()
 main = interact $ unlines . map solve . tail . lines

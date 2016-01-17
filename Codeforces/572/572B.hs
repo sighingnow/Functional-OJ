@@ -1,9 +1,9 @@
 -- Codeforces 572B
 
-import Control.Applicative
-import Control.Monad
-import Data.List
-import Data.Char
+import           Control.Applicative
+import           Control.Monad
+import           Data.Char
+import           Data.List
 
 main :: IO ()
 main = do

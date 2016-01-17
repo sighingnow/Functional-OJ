@@ -1,6 +1,6 @@
 -- HackerRank challenge - Algorithms - 2-4: find digits
 
-import Data.List
+import           Data.List
 
 main :: IO ()
 main = getLine >> getContents >>= putStrLn . intercalate "\n" . map show . solve . map read . words

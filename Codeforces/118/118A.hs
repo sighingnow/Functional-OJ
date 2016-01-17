@@ -1,6 +1,6 @@
 -- Codeforces 118A
 
-import Data.Char
+import           Data.Char
 
 main :: IO()
 main = getLine >>= putStrLn . concat . map solve
