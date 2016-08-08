@@ -1,5 +1,5 @@
-{-# LANGUAGE BangPatterns #-}
 {-# OPTIONS -O2 #-}
+{-# LANGUAGE BangPatterns #-}
 
 import           Data.Array
 
